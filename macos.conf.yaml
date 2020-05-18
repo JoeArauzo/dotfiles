@@ -1,0 +1,9 @@
+- clean: ['~']
+
+- brewfile:
+    # This accepts the same options as `brew bundle` command:
+    file: brew/Brewfile_macos
+    no-upgrade: true
+
+- shell:
+  - brew link --force python@3.8

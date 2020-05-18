@@ -118,3 +118,6 @@ export HOMEBREW_GITHUB_API_TOKEN=20071f788074ba9f51aeb30e404b5c77fdfe0af8
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 export TERM="xterm-256color"
+
+export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"

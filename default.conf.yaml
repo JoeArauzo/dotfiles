@@ -46,5 +46,11 @@
         create: false
         relink: false
         force: false
+    ~/.config/alacritty/alacritty.yml:
+        path: alacritty
+        create: true
+        relink: false
+        force: false
 
-
+- shell:
+  - gem install colorls
