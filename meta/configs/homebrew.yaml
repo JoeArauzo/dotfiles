@@ -6,9 +6,6 @@
     - sambadevi/powerlevel9k
 
 - brew:
-    - zsh
-    - zsh-autosuggestions
-    - zsh-syntax-highlighting
     - powerlevel9k
     - vim
     - tmux

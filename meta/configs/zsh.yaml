@@ -1,3 +1,11 @@
+- brew:
+    - zsh
+    - zsh-autosuggestions
+    - zsh-syntax-highlighting
+
 - link:
     ~/.zshrc:
         path: shells/zsh/zshrc
+
+- shell:
+    - "~/.dotfiles/scripts/zsh.sh"
