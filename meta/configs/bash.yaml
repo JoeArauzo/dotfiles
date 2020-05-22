@@ -1,0 +1,7 @@
+- link:
+    ~/.profile:
+        path: shells/bash/profile
+    ~/.bash_profile:
+        path: shells/bash/bash_profile
+    ~/.bashrc:
+        path: shells/bash/bashrc

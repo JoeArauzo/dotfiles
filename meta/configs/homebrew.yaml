@@ -1,0 +1,22 @@
+- tap:
+    - homebrew/bundle
+    - homebrew/cask
+    - homebrew/cask-fonts
+    - homebrew/core
+    - sambadevi/powerlevel9k
+
+- brew:
+    - zsh
+    - zsh-autosuggestions
+    - zsh-syntax-highlighting
+    - powerlevel9k
+    - vim
+    - tmux
+    - python@3.8
+    - mas
+
+- cask:
+    - font-hack-nerd-font
+    - alacritty
+    - google-chrome
+    - iterm2

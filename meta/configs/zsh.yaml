@@ -1,0 +1,3 @@
+- link:
+    ~/.zshrc:
+        path: shells/zsh/zshrc

@@ -1,0 +1,3 @@
+- link:
+    ~/.vim/vimrc:
+        path: editors/vim/vimrc
