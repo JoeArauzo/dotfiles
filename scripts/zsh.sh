@@ -2,9 +2,11 @@
 
 set -e
 
-if [ "$0" != "/bin/zsh" ]; then
+[ ! -d ~/.oh-my-zsh ] && sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-	echo "Enter your password when prompted in order to change the default shell to ZSH"
+if [[ "$0" =~ zsh$ ]]; then
+
+	echo "Enter your password when prompted"
 	chsh -s /bin/zsh
 
 fi

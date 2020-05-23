@@ -8,4 +8,9 @@
         path: shells/zsh/zshrc
 
 - shell:
-    - "~/.dotfiles/scripts/zsh.sh"
+    - 
+      command: "~/.dotfiles/scripts/zsh.sh"
+      stdin: true
+      stdout: true
+      description: Making zsh the default shell
+      quiet: false

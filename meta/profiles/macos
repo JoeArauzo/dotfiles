@@ -4,5 +4,6 @@ git
 ssh
 tmux
 vim
+nvim
 zsh
 homebrew
