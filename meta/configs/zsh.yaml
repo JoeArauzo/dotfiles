@@ -14,11 +14,3 @@
       stdout: true
       description: Making zsh the default shell
       quiet: false
-
-- shell:
-    - 
-      command: "gem install colorls"
-      stdin: true
-      stdout: true
-      description: Installing colorls
-      quiet: false
