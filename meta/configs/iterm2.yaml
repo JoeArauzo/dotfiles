@@ -1,6 +1,10 @@
 - cask:
     - iterm2
 
-- link:
-    ~/Library/Preferences/com.googlecode.iterm2.plist:
-        path: terminals/iterm2/com.googlecode.iterm2.plist
+- shell:
+    - 
+      command: cp terminals/iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/
+      stdin: true
+      stdout: true
+      description: Making zsh the default shell
+      quiet: false
