@@ -6,10 +6,8 @@
 
 - brew:
     - gnupg
-    - python@3.8
     - mas
 
 - cask:
     - font-hack-nerd-font
     - google-chrome
-    - iterm2
