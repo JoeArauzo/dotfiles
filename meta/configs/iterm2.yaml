@@ -1,0 +1,6 @@
+- cask:
+    - iterm2
+
+- link:
+    ~/Library/Preferences/com.googlecode.iterm2.plist:
+        path: terminals/iterm2/com.googlecode.iterm2.plist
