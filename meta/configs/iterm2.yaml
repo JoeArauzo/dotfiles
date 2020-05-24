@@ -6,5 +6,5 @@
       command: cp terminals/iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/
       stdin: true
       stdout: true
-      description: Making zsh the default shell
+      description: Configuring default profile
       quiet: false
