@@ -1,0 +1,5 @@
+- brew:
+    - python@3.8
+    
+- shell:
+  - brew link --force python@3.8

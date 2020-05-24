@@ -1,7 +1,0 @@
-- clean: ['~']
-
-- brewfile:
-    - brew/Brewfile_macos
-
-- shell:
-  - brew link --force python@3.8

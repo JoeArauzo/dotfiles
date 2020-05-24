@@ -3,17 +3,13 @@
     - homebrew/cask
     - homebrew/cask-fonts
     - homebrew/core
-    - sambadevi/powerlevel9k
 
 - brew:
-    - powerlevel9k
-    - vim
-    - tmux
+    - gnupg
     - python@3.8
     - mas
 
 - cask:
     - font-hack-nerd-font
-    - alacritty
     - google-chrome
     - iterm2

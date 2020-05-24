@@ -1,3 +1,5 @@
+homebrew
+rvm
 alacritty
 bash
 git
@@ -7,4 +9,3 @@ vim
 nvim
 zsh
 oh-my-zsh
-homebrew

@@ -1,0 +1,7 @@
+- shell:
+    - 
+      command: "~/.dotfiles/scripts/rvm.sh"
+      stdin: true
+      stdout: true
+      description: Installing Ruby Version Manager
+      quiet: false

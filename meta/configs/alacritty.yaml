@@ -1,3 +1,6 @@
+- cask:
+    - alacritty
+
 - link:
     ~/.config/alacritty/alacritty.yml:
         path: terminals/alacritty/alacritty.yml
