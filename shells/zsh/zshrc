@@ -9,7 +9,8 @@ export ZSH="/Users/jarauzo/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 POWERLEVEL9K_MODE='nerdfont-complete'
-ZSH_THEME="powerlevel9k/powerlevel9k"
+#ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Customise the Powerlevel9k prompts
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh dir vcs newline status)
@@ -114,6 +115,8 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 bindkey -M viins 'jk' vi-cmd-mode
 export PATH="$PATH:/Users/jarauzo/.local/bin"
 export HOMEBREW_GITHUB_API_TOKEN=20071f788074ba9f51aeb30e404b5c77fdfe0af8
+
+source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"

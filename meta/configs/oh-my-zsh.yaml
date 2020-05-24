@@ -1,0 +1,11 @@
+- shell:
+    - 
+      command: "~/.dotfiles/scripts/oh-my-zsh.sh"
+      stdin: true
+      stdout: true
+      description: Installing oh-my-zsh
+      quiet: false
+
+- link:
+    ~/.oh-my-zsh/custom/themes/powerlevel10k:
+        path: shells/oh-my-zsh/themes/powerlevel10k
