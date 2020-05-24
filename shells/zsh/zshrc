@@ -74,6 +74,7 @@ plugins=(
   virtualenv
 )
 
+ZSH_DISABLE_COMPFIX="true"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -116,7 +117,7 @@ bindkey -M viins 'jk' vi-cmd-mode
 export PATH="$PATH:/Users/jarauzo/.local/bin"
 export HOMEBREW_GITHUB_API_TOKEN=20071f788074ba9f51aeb30e404b5c77fdfe0af8
 
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+#source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
