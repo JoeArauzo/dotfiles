@@ -1,6 +1,10 @@
 - brew:
     - python@3.8
-    
+
 - shell:
-  - brew link --force python@3.8; \
-  ln -s -f /usr/local/bin/python3 /usr/local/bin/python
+    - 
+      command: "~/.dotfiles/scripts/python3-macos.sh"
+      stdin: true
+      stdout: true
+      description: Fixing Python 3 symlinks
+      quiet: false
