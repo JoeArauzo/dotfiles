@@ -10,7 +10,3 @@ if [[ ! -d ~/.rvm ]]; then
 else
     echo "RVM is already installed."
 fi
-
-source ~/.rvm/scripts/rvm
-
-gem install colorls

@@ -2,6 +2,7 @@
     - zsh
     - zsh-autosuggestions
     - zsh-syntax-highlighting
+    - lsd
 
 - link:
     ~/.zshrc:
