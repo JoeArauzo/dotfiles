@@ -4,3 +4,6 @@
 - link:
     ~/.tmux.conf:
         path: terminals/tmux/tmux.conf
+
+    ~/.tmux/plugins/tpm:
+        path: terminals/tmux/plugins/tpm
