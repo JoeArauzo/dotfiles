@@ -114,6 +114,7 @@ export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 bindkey -M viins 'jk' vi-cmd-mode
+bindkey -M viins 'JK' vi-cmd-mode
 export PATH="$PATH:/Users/jarauzo/.local/bin"
 export HOMEBREW_GITHUB_API_TOKEN=20071f788074ba9f51aeb30e404b5c77fdfe0af8
 
