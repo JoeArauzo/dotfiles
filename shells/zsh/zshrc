@@ -107,6 +107,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="lsd"
 alias yd="youtube-dl"
+alias cat="bat"
+
+export BAT_THEME="OneHalfDark"
 export WORKON_HOME=$HOME/dev/venvs
 export PROJECT_HOME=$HOME/dev/projects
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3

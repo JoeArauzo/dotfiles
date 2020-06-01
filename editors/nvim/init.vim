@@ -9,7 +9,7 @@ call plug#end()
 
 colorscheme nord
 
-set number
+set number relativenumber
 set colorcolumn=80
 
 autocmd FileType yaml setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
