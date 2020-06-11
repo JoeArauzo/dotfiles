@@ -5,7 +5,7 @@ PYTHON3_SF='/usr/local/bin/python3'
 PYTHON3_STR='python@3.8'
 PYTHON_SF='/usr/local/bin/python'
 PIP_SF='/usr/local/bin/pip'
-PIP3_SF='/usr/local/bin/pip3'
+PIP3_SF='/usr/local/bin/pip3.8'
 
 echo "Checking python3 symlinks..."
 if [[ ! -h $PYTHON3_SF ]]; then
@@ -27,7 +27,8 @@ else
 fi
 
 echo "Checking if pip is linked to pip3..."
-if [[ ! -h $PIP_SF ]]; then
+if [[ ! -h $PIP_SF ]] ||
+        [[ ! ( $(ls -l $PIP_SF | awk '{print $NF}') =~ $PIP3_SF) ]]; then
     ln -s -f $PIP3_SF $PIP_SF
     echo "Pip successfully linked to pip3"
 else
