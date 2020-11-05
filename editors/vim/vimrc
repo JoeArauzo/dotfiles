@@ -18,7 +18,12 @@ filetype off                  " required
 " Plugin 'articicestudio/nord-vim'
 
 " ...
-:inoremap jk <esc>
+"":inoremap jk <esc>
+set timeoutlen=300
+inoremap jk <Esc>l
+inoremap JK <Esc>l
+
+
 map <C-n> :NERDTreeToggle<CR>
 syntax on
 
