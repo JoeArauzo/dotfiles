@@ -108,6 +108,7 @@ source $ZSH/oh-my-zsh.sh
 alias ls="lsd"
 alias yd="youtube-dl"
 alias cat="bat"
+alias crd="youtube-dl --write-sub --sub-format 'best' --sub-lang 'enUS' --embed-subs"
 
 export BAT_THEME="OneHalfDark"
 export WORKON_HOME=$HOME/dev/venvs
@@ -116,6 +117,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
 export VIRTUAL_ENV_DISABLE_PROMPT=1
+export EDITOR=nvim
 bindkey -M viins 'jk' vi-cmd-mode
 bindkey -M viins 'JK' vi-cmd-mode
 export PATH="$PATH:/Users/jarauzo/.local/bin"
@@ -125,7 +127,7 @@ export HOMEBREW_GITHUB_API_TOKEN=20071f788074ba9f51aeb30e404b5c77fdfe0af8
 
 export TERM="xterm-256color"
 
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+export PATH="/usr/local/opt/python@3.9/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
 
